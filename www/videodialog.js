@@ -25,7 +25,7 @@ cordova.define("cordova/plugin/videodialog",
             return false;
         }
 
-        exec(successCallback, errorCallback, "VidDialog", "play", [params]);
+        exec(successCallback, errorCallback, "VideoDialogPlugin", "play", [params]);
     };
 
     var videodialog = new VideoDialog();
